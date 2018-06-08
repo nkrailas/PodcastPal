@@ -16,6 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".HiddenBrainActivity"
+            android:label="Hidden Brain" />
+        <activity
+            android:name=".WorkLifeActivity"
+            android:label="WorkLife" />
+
     </application>
 
 </manifest>
