@@ -22,7 +22,8 @@
         <activity
             android:name=".WorkLifeActivity"
             android:label="WorkLife" />
-
+        <activity android:name=".Episode" />
+        <activity android:name=".EpisodeAdapter"></activity>
     </application>
 
 </manifest>

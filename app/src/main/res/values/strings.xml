@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Podcast Pal</string>
+    <string name="hidden_brain_podcast_icon">Hidden Brain podcast icon</string>
+    <string name="worklife_podcast_icon">WorkLife podcast icon</string>
 </resources>

@@ -11,18 +11,18 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/hiddenBrainImageView"
+            android:id="@+id/hiddenBrainIcon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:contentDescription="Hidden Brain podcast icon"
+            android:contentDescription="@string/hidden_brain_podcast_icon"
             android:padding="16dp"
             android:src="@drawable/hidden_brain" />
 
         <ImageView
-            android:id="@+id/workLifeImageView"
+            android:id="@+id/workLifeIcon"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:contentDescription="WorkLife podcast icon"
+            android:contentDescription="@string/worklife_podcast_icon"
             android:padding="16dp"
             android:src="@drawable/worklife" />
 
