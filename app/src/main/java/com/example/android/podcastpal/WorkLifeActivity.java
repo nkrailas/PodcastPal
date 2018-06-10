@@ -17,7 +17,7 @@ public class WorkLifeActivity extends AppCompatActivity {
         setContentView(R.layout.episode_list);
 
         // Create an ArrayList of Episodes objects
-        final ArrayList<Episode> episodes = new ArrayList<>();
+        ArrayList<Episode> episodes = new ArrayList<>();
 
         // Adding Episodes objects
         // For description of episodes (6/10/2018): https://www.ted.com/series/worklife-with-adam-grant
