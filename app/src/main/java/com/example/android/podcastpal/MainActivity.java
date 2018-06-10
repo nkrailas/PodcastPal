@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Find the ImageView with the Hidden Brain podcast icon
+        // Used resource to copy image of Hidden Brain podcast icon (6/8/2018): www.google.com (search)
         ImageView hiddenBrain = findViewById(R.id.hiddenBrainIcon);
 
         // Set a ClickListener on the Hidden Brain ImageView
@@ -29,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Find the ImageView with the WorkLife podcast icon
+        // Used resource to copy image of WorkLife podcast icon (6/8/2018): www.google.com (search)
         ImageView workLife = findViewById(R.id.workLifeIcon);
 
         // Set a ClickListener on the WorkLife podcast icon

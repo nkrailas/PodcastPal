@@ -11,7 +11,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 /**
- * Used resource to learn how to include imageView and textViews in custom ArrayAdapter (6/8/2018):
+ * For confirming how to include imageView and textViews in custom ArrayAdapter (6/8/2018):
  * https://medium.com/mindorks/custom-array-adapters-made-easy-b6c4930560dd
  */
 

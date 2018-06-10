@@ -2,7 +2,10 @@ package com.example.android.podcastpal;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -17,7 +20,8 @@ public class HiddenBrainActivity extends AppCompatActivity {
         ArrayList<Episode> episodes = new ArrayList<>();
 
         // Adding Episodes objects
-        // Used resource to compress image files (6/8/2018): http://compresspng.com/
+        // For images and description of episodes (6/8/2018): https://www.npr.org/podcasts/510308/hidden-brain
+        // For compressing image files (6/8/2018): http://compresspng.com/
         episodes.add(new Episode(R.drawable.hiddenbrain_20180604, "When Everything Clicks",
                 "June 4, 2018", "52 mins",
                 "We explore an innovative idea about how we learn and how to quiet the noise."));
@@ -49,6 +53,15 @@ public class HiddenBrainActivity extends AppCompatActivity {
 
         // Make the ListView use the ArrayAdapter so the ListView displays list items for each episode in the list of episodes.
         listView.setAdapter(adapter);
+
+        // For displaying Toast when item in ListView is clicked (6/10/2018): https://www.youtube.com/watch?v=XyxT8IQoZkc
+        // Set OnItemClickListener for a ListView
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Toast.makeText(getBaseContext(), "Now Playing", Toast.LENGTH_SHORT).show();
+            }
+        });
 
     }
 }
