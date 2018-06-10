@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="imageView_padding">16dp</dimen>
+    <dimen name="listView_padding">14dp</dimen>
+    <dimen name="list_marginStart">4dp</dimen>
+    <dimen name="list_marginEnd">8dp</dimen>
+    <dimen name="list_marginBottom">4dp</dimen>
+</resources>
