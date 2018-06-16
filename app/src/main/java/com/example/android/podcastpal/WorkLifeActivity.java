@@ -21,16 +21,16 @@ public class WorkLifeActivity extends AppCompatActivity {
 
         // Adding Episodes objects
         // For description of episodes (6/10/2018): https://www.ted.com/series/worklife-with-adam-grant
-        episodes.add(new Episode(R.drawable.worklife, "When Work Takes Over Your Life",
+        episodes.add(new Episode(R.drawable.worklife_episode, "When Work Takes Over Your Life",
                 "April 14, 2018", "38 mins",
                 "Technology is making it harder than every to disconnect, but it might be easier than you think."));
-        episodes.add(new Episode(R.drawable.worklife, "A World Without Bosses",
+        episodes.add(new Episode(R.drawable.worklife_episode, "A World Without Bosses",
                 "April 11, 2018", "34 mins",
                 "Being your own boss can be liberating, but it can also be paralyzing."));
-        episodes.add(new Episode(R.drawable.worklife, "Faking Your Emotions at Work",
+        episodes.add(new Episode(R.drawable.worklife_episode, "Faking Your Emotions at Work",
                 "April 4, 2018", "34 mins",
                 "How do you manage your emotions at work - and your coworkers' and customers' emotions too - without burning out?"));
-        episodes.add(new Episode(R.drawable.worklife, "How to Trust People You Don't Like",
+        episodes.add(new Episode(R.drawable.worklife_episode, "How to Trust People You Don't Like",
                 "March 28, 2018", "34 mins",
                 "How to handle conflict and build trust? Ask a crew of multi-national astronauts and a wilderness trainer."));
 
