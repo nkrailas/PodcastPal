@@ -9,19 +9,19 @@ package com.example.android.podcastpal;
 public class Episode {
 
     // Image related to the episode
-    private int mEpisodeImage;
+    private int EpisodeImage;
 
     // Title of the episode
-    private String mEpisodeTitle;
+    private String EpisodeTitle;
 
     // Date of the episode
-    private String mEpisodeDate;
+    private String EpisodeDate;
 
     // Duration of the episode
-    private String mEpisodeDuration;
+    private String EpisodeDuration;
 
     // Description of the episode
-    private String mEpisodeDescription;
+    private String EpisodeDescription;
 
     /**
      * Create a new Episode object
@@ -35,35 +35,35 @@ public class Episode {
 
     // Constructor used to create an instance of the Episode object
     public Episode(int episodeImage, String episodeTitle, String episodeDate, String episodeDuration, String episodeDescription) {
-        mEpisodeImage = episodeImage;
-        mEpisodeTitle = episodeTitle;
-        mEpisodeDate = episodeDate;
-        mEpisodeDuration = episodeDuration;
-        mEpisodeDescription = episodeDescription;
+        EpisodeImage = episodeImage;
+        EpisodeTitle = episodeTitle;
+        EpisodeDate = episodeDate;
+        EpisodeDuration = episodeDuration;
+        EpisodeDescription = episodeDescription;
     }
 
     // Get image related to the episode
     public int getEpisodeImage() {
-        return mEpisodeImage;
+        return EpisodeImage;
     }
 
     // Get title of the episode
     public String getEpisodeTitle() {
-        return mEpisodeTitle;
+        return EpisodeTitle;
     }
 
     // Get date of the episode
     public String getEpisodeDate() {
-        return mEpisodeDate;
+        return EpisodeDate;
     }
 
     // Get duration of the episode
     public String getEpisodeDuration() {
-        return mEpisodeDuration;
+        return EpisodeDuration;
     }
 
     // Get description of the episode
     public String getEpisodeDescription() {
-        return mEpisodeDescription;
+        return EpisodeDescription;
     }
 }

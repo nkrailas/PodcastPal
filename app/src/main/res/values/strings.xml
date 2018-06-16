@@ -3,4 +3,6 @@
     <string name="hidden_brain_podcast_icon">Hidden Brain podcast icon</string>
     <string name="worklife_podcast_icon">WorkLife podcast icon</string>
     <string name="image_episode">Image related to episode topic</string>
+    <string name="hidden_brain_app_label">Hidden Brain</string>
+    <string name="worklife_app_label">WorkLife</string>
 </resources>

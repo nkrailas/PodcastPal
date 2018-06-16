@@ -18,10 +18,12 @@
         </activity>
         <activity
             android:name=".HiddenBrainActivity"
-            android:label="Hidden Brain" />
+            android:label="@string/hidden_brain_app_label"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".WorkLifeActivity"
-            android:label="WorkLife" />
+            android:label="@string/worklife_app_label"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".Episode" />
         <activity android:name=".EpisodeAdapter" />
     </application>
