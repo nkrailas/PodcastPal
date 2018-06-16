@@ -27,8 +27,7 @@ public class EpisodeAdapter extends ArrayAdapter<Episode> {
     public View getView(int position, View convertView, ViewGroup parent) {
         // Check if the existing View is being reused. If not, then inflate the View.
         if (convertView == null) {
-            convertView = LayoutInflater.from(getContext()).inflate(
-                    R.layout.list_item, parent, false);
+            convertView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
         }
 
         // Get the Episode object located at this position in the list
